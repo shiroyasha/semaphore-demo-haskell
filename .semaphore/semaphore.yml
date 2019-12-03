@@ -16,6 +16,7 @@ blocks:
     task:
       prologue:
         commands:
+          - echo "here"
           - cd $HOME
           - ls -lah
           # Checkout code from Git repository.
